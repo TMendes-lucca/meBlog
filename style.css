@@ -1,0 +1,274 @@
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
+  color: #222222;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* superior */
+
+.contatosuper-bg {
+  background: #6e0b73dd;
+  color: rgb(240, 239, 239);
+}
+
+.contatosuper {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+.contatosuper p,
+.contatosuper a {
+  margin: 0 10px 10px 10px;
+}
+.contatosuper a {
+  color: rgb(240, 239, 239);
+}
+
+/* Menu */
+
+.menu-bg {
+  background: #8d1494dd;
+}
+
+.menu {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a {
+  color: rgb(240, 239, 239);
+}
+
+.menu-logo a {
+  font-size: 2.25em;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu-nav a {
+  font-size: 1.25em;
+  display: block;
+  padding: 10px;
+}
+
+.menu-nav a:hover {
+  color: #6e0b73dd;
+}
+
+.introducao {
+  font-size: 3em;
+  line-height: 1.2;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 10px;
+}
+
+/* introdução */
+.italic {
+  font-style: italic;
+}
+.sobre {
+  border-top: 2px solid #6e0b73dd;
+  border-bottom: 2px solid #6e0b73dd;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sobre-info {
+  flex: 2 1 300px;
+  margin: 0 10px;
+}
+.sobre-info h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+.sobre-info p {
+  font-size: 1.25em;
+  line-height: 1.4;
+  margin-bottom: 1em;
+  color: rgb(139, 149, 157);
+}
+.sobre-img {
+  flex: 1 1 160px;
+  margin: 0 10px;
+}
+.sobre-img img {
+  border-radius: 8px;
+}
+
+/* habilidades */
+
+.habilidade {
+  padding: 10px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  max-width: 960px;
+  margin: 0 auto;
+  border-bottom: 2px solid #6e0b73dd;
+}
+
+#titulo-habilidade {
+  padding: 30px 10px;
+  font-size: 2.2em;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.habilidade-item {
+  flex: 1;
+  border: 4px solid #a4a4a4;
+  padding: 20px;
+  margin: 10px;
+  min-width: 260px;
+}
+
+.habilidade-item h2 {
+  font-size: 2.5em;
+  color: #a4a4a4;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.habilidade-item span {
+  max-width: 300px;
+  margin: 20px auto;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0 5px 0;
+  border-top: 4px solid #a4a4a4;
+  border-bottom: 4px solid #a4a4a4;
+  font-size: 2.5em;
+}
+
+.habilidade-item sup {
+  font-size: 1.5rem;
+}
+
+.habilidade-item ul {
+  max-width: 300px;
+  margin: 20px auto;
+  font-size: 1.25em;
+  line-height: 1;
+  font-style: italic;
+  color: #7c7c7c;
+}
+
+.habilidade-item li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.habilidade-item li::after {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 6px;
+  background: #a119ad;
+  border-radius: 40%;
+}
+
+/* .competencias */
+
+.competencias-titulo {
+  padding: 30px 10px;
+  font-size: 2.2em;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.competencias {
+  max-width: 960px;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.competencias-item {
+  flex: 1 1 260px;
+  margin: 20px 10px;
+  border: 4px solid #a4a4a4;
+  padding: 15px;
+}
+
+.competencias-item h2 {
+  font-size: 2.2em;
+  color: #757474;
+}
+
+.competencias-item p {
+  font-size: 1.1em;
+  color: #7c7c7c;
+  line-height: 1.4;
+}
+
+.competencias-item h2::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 25px;
+  margin-right: 10px;
+  background: #a119ad;
+  border-radius: 12%;
+  margin-right: 10px;
+}
+
+.competencias-link {
+  margin-top: 12px;
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* bottom */
+
+.bottom {
+  padding-top: 15px;
+  margin-top: 10px;
+}
